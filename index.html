@@ -254,21 +254,154 @@
             </div>
         </section>
         <!-- registration section -->
-        <section class="container">
-            <div class="card-body bg-primary text-white m-5 p-5 rounded" style="width:1080px;">
-                <h1 class="card-title">Ready to join?</h1>
+        <section class="container-fluid">
+            <div class="card-body bg-primary opacity-75 text-white m-5 p-5 rounded" style="width: 1140px;">
+                <h1 class="card-title fw-bold d-flex justify-content-around">Ready to join?</h1>
                 <br>
-                <div class="d-flex">
-                <p class="card-text text-start">Learn everything you need to successfully and confidently teach online today!
-                    Have you been recently thrust into online teaching?</p>
-                <a href=""><button type="button" class="btn btn-primary bg-white text-primary fw-bold p-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Register Now
-                  </button></a></div>
-            </div>
-            </div>
+                <div class="d-flex justify-content-around">
+                    <p class="card-text text-start">Learn everything you need to successfully and confidently teach
+                        online today!
+                    </p>
+                    <!-- Button trigger modal -->
+                    <div class="ms-3">
+                        <button type="button" class="bg-white btn btn-primary text-primary fw-bold"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Register Now
+                        </button>
 
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header text-dark">
+                                        <h5 class="modal-title" id="exampleModalLabel">You are in the right track.</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
         </section>
+        <!-- students section -->
+        <section class="container mx-auto">
+            <div>
+                <h1 class="fw-bold">Meet Our Successfull
+                    students</h1>
+                <p class="text-transparent pb-5">Our Educational Technology Students</p>
+            </div>
+            <div class="gx-4">
+                <div class="row g-4 ">
+                    <div class="col border rounded p-2 m-2">
+                        <img class="h-80 w-100" src="images/student/student-1.png" alt="">
+                        <h4>Awlad Hossain</h4>
+                        <span>UIUX Designer</span>
+                    </div>
+                    <div class="col border border rounded p-2 m-2">
+                        <img class="h-80 w-100" src="images/student/student-2.png" alt="">
+                        <h4>Shammi Hossain</h4>
+                        <span>Model Designer</span>
+                    </div>
+                    <div class="col border rounded p-2 m-2">
+                        <img class="h-80 w-100" src="images/student/student-3.png" alt="">
+                        <h4>Anwar Khan</h4>
+                        <span>Graphic Designer</span>
+                    </div>
+                    <div class="col border rounded p-2 m-2">
+                        <img class="h-80 w-100" src="images/student/student-4.png" alt="">
+                        <h4>Nishi Akhter</h4>
+                        <span>Web Developper</span>
+                    </div>
+                </div>
+                <!-- view all  -->
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary m-5 fw-bold">View All</button>
+                </div>
+            </div>
+        </section>
+        <!-- questions section -->
+        <section>
+            <div class="container p-5 text-center">
+                <h1>Frequently Asked Questions</h1>
+                <p class="text-transparent">Below you will find answers to the questions we get asked the most about for Digital Learning.</p>
+            </div>
+            <div class="container">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is the difference between flex and grid ?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can
+                                work on either row or columns at a time, but Grids can work on both. Flexbox, gives you
+                                more flexibility while working on either element (row or column).
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is the difference between bootstrap and tailwind ?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The significant difference between Tailwind CSS and Bootstrap is that Tailwind offers predesigned widgets to build a site from scratch with fast UI development, while Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit.7 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is css box model?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In CSS, the term "box model" is used when talking about design and layout.
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                               What is symantic tag?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as <header> , <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
 
