@@ -1,3 +1,14 @@
+body {
+    font-family: 'Gulzar', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .fa-brands {
     background-color: transparent;
     width: 70px;
